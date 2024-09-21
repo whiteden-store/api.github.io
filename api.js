@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.post('/webhook', (req, res) => {
   const mensaje = req.body.message;
-  const chatId = (link unavailable);
+  const chatId = ("https://mensaje.chat.id");
   const respuesta = 'Esta es la respuesta';
 
   bot.sendMessage(chatId, respuesta);
