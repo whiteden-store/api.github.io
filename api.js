@@ -18,5 +18,5 @@ app.post('/webhook', (req, res) => {
 
 app.listen(8080, () => {
   console.log('Servidor escuchando en puerto 8080');
-  bot.setWebhook('https://whiteden-store.github.io/api.github.io/');
+  bot.setWebhook('https://whiteden-store.github.io/api.github.io/api.js');
 });
